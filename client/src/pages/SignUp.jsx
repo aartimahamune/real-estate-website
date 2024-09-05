@@ -93,7 +93,7 @@ export default function SignUp() {
                   type="password" id="password" onChange={handleChange}/>
               </div>
               <div className="mt-8">
-                <button disabled={loading} className="bg-black text-white font-bold py-2 px-4 w-full rounded-lg hover:opacity-80 disabled:opacity-70">
+                <button disabled={loading} className="bg-black text-white font-bold py-3 px-4 w-full rounded-lg hover:opacity-80 disabled:opacity-70">
                   { loading ? 'Loading...' : 'Sign Up'}
                 </button>
               </div>

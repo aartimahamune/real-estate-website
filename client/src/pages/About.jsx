@@ -4,11 +4,10 @@ export default function About() {
   return (
     <div className='py-20 px-4 max-w-6xl mx-auto'>
       <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Dream Park Estate</h1>
-      <p className='mb-4 text-slate-700'>Dream Park Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
+      <p className='mb-4 text-slate-700'>Welcome to Dream Park, where your dream home becomes a reality. Founded on the principles of trust, integrity, and personalized service, we pride ourselves on offering an exceptional real estate experience that’s as seamless as it is satisfying.</p>
       <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
-      </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
+      At Dream Park, we believe finding the perfect home should be more than just a transaction—it’s the start of a new chapter. Whether you’re a first-time buyer, looking for an investment property, or seeking your forever home, we’re here to guide you every step of the way. With our deep knowledge of the market and commitment to client care, we take the stress out of the process, so you can focus on what matters most—making your dream a reality.      </p>
+      <p className='mb-4 text-slate-700'>Let Dream Park lead you home. Together, we’ll find a place where your future can truly flourish.</p>
     </div>
   )
 }
