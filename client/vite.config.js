@@ -12,4 +12,8 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  cacheDir: './.vite_cache', // Optional: Ensures Vite uses a dedicated cache folder
+  optimizeDeps: {
+    include: ['swiper', 'swiper/react'], // Optional: Ensure these dependencies are optimized
+  },
 })
